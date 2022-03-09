@@ -1,8 +1,11 @@
 # Perfumes_Recommender
 
-Perfumes recommender is a recommendation system for perfumes. As we all know recommendation systems are popular these days and used by a lot of companies in order to understand their customer and provide them with a better service. 
 
-The perfumes dataset was collected from GoldenScent website https://www.goldenscent.com/en/, using scraping packages in python. The aim of this project is to find similar perfumes based on perfumes features. This project have 4 main phases: First, collecting the data. Second, cleaning the dataset and in the phase I faced many issues because data obtained from goldenscent website have a lot of incosistencies and null values that lead to a lot of problems and have to be resolved before starting the building recommender phase. Third phase was exploring the dataset by doing a proper Exploratory Data Analysis. Forth phase was building the recommender, the approach chosen was content-based similarity recommender based on cosine similarity. This approach was chosen due to the nature of the dataset in hand where there are no enough rating data avaliable in the dataset. 
+Perfumes recommender is a recommendation system for perfumes. As we all know recommendation systems are popular these days and used by a lot of companies in order to understand their customer and provide them with a better service. This project aim to find similar perfumes based on perfumes features. 
+
+This project have 4 main phases: 
+Phase1: collecting the data, data was collected from GoldenScent website https://www.goldenscent.com/en/, using scraping packages in python.
+Phase2: cleaning the dataset and in the phase I faced many issues because data obtained from goldenscent website have a lot of incosistencies and null values that lead to a lot of problems and have to be resolved before starting the building recommender phase. 
 
 ### Datasets obtained from GoldenScent:
 - Perfumes Dataset: 
@@ -115,6 +118,9 @@ This dataset contain User nickname, Perfume_name, Brand, Fragrance_Family, Overa
 
 </table>
 
+Phase3: Exploring the dataset by doing a proper Exploratory Data Analysis.
+Phase4: Building the recommender, using content-based similarity recommender based on cosine similarity. This approach was chosen due to the nature of the dataset in hand where there are no enough rating data avaliable in the dataset. 
+
 This Repository contains:
 1. Scraping_scripts folder that contains scripts used to scrape data from GoldenScent
 2. Dataset folder which consist of 4 csv files:
@@ -130,4 +136,4 @@ This Repository contains:
 
 In Conclusion, two recommender was built in order to see which perform better. First recommender was based on perfume description, unfortanatily it did not perform well. the reason is that not all perfume descriptions have a useful information about the perfume not only this some brand have the same description for all their perfumes. Second recommender was based on selected features: Gender, Fragrance_Family, Ingredients, Top_note, Middle_note, Base_note. therfore the second recommender perfome better and produce 5 most similar perfumes with high cosine similarity scores.  
 
-![Alt text](../images/image_2.jpg?raw=true "Title")
+![Alt text](https://github.com/rawanalqarni/Perfumes_Recommender/blob/main/images/image_2.png?raw=true "Title")
