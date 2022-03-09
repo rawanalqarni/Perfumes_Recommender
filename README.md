@@ -120,7 +120,7 @@ This dataset contain User nickname, Perfume_name, Brand, Fragrance_Family, Overa
 </table>
 
 - Phase3: Exploring the dataset by doing a proper Exploratory Data Analysis.
-- Phase4: Building the recommender, using content-based similarity recommender based on cosine similarity. This approach was chosen due to the nature of the dataset in hand where there are no enough rating data avaliable in the dataset. 
+- Phase4: Building the recommender, using content-based similarity recommender based on cosine similarity. This approach was chosen due to the nature of the dataset in hand where there are no enough rating data available in the dataset. 
 
 This Repository contains:
 1. Scraping_scripts folder that contains scripts used to scrape data from GoldenScent
@@ -135,6 +135,6 @@ This Repository contains:
 6. Model.ipynb: this notebook contains recommender based on description which perform poorly and replced by Model_1 
 
 
-In Conclusion, two recommender was built in order to see which perform better. First recommender was based on perfume description, unfortanatily it did not perform well. the reason is that not all perfume descriptions have a useful information about the perfume not only this some brand have the same description for all their perfumes. Second recommender was based on selected features: Gender, Fragrance_Family, Ingredients, Top_note, Middle_note, Base_note. therfore the second recommender perfome better and produce 5 most similar perfumes with high cosine similarity scores.  
+In Conclusion, two recommender was built in order to see which perform better. First recommender was based on perfume description, unfortunately it did not perform well. the reason is that not all perfume descriptions have a useful information about the perfume not only this some brand have the same description for all their perfumes. Second recommender was based on selected features: Gender, Fragrance_Family, Ingredients, Top_note, Middle_note, Base_note. therfore the second recommender perfome better and produce 5 most similar perfumes with high cosine similarity scores.  
 
 ![Alt text](https://github.com/rawanalqarni/Perfumes_Recommender/blob/main/images/image_2.png?raw=true "Title")
