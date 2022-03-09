@@ -1,5 +1,6 @@
 # Perfumes_Recommender
 
+<img src="https://github.com/rawanalqarni/Perfumes_Recommender/blob/main/images/3.jpg" width="1000" height="300" />
 
 Perfumes recommender is a recommendation system for perfumes. As we all know recommendation systems are popular these days and used by a lot of companies in order to understand their customer and provide them with a better service. This project aim to find similar perfumes based on perfumes features. 
 
